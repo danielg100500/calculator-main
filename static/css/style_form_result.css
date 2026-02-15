@@ -1,0 +1,36 @@
+nav {
+    background-color: #5988FF;
+    font-size: 25px;
+    margin-top: -25px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+@keyframes color-change {
+  0%   { color: red; }
+  25%  { color: yellow; }
+  50% { color: #D6FF6B; }
+  75% { color: #5988FF; }
+  100% { color: #fc7100; }
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+	animation: color-change 3s infinite;
+}
+
+p {
+	font-family: Arial;
+}
+
+.card { 
+  border:inset 4px;
+  border-radius: 20px;
+  background-color: #d6e2ff;
+  margin: 20px;
+  padding: 20px;
+}
